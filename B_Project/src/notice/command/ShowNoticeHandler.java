@@ -13,12 +13,13 @@ import notice.dao.NoticeDAO;
 import notice.model.Notice;
 import notice.service.ShowNoticeService;
 
+
+
 public class ShowNoticeHandler implements CommandHandler{
 
 	@Override
-	public String process(HttpServletRequest request, HttpServletResponse response) throws Exception {
+	public String process(HttpServletRequest request, HttpServletResponse response) throws Exception {	
 		int pageNo = Integer.parseInt(request.getParameter("pageNo"));
-		
 		NoticeDAO dao = new NoticeDAO();
 		int pagingUnit=5;
 		Connection conn = ConnectionProvider.getConnection();

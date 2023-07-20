@@ -2,7 +2,9 @@ package notice.service;
 
 import java.util.List;
 
-import notice.Notice;
+import notice.model.Notice;
+
+
 
 public class NoticePage {
 	private int total;

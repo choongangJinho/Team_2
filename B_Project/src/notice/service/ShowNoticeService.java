@@ -5,9 +5,8 @@ import java.sql.SQLException;
 import java.util.List;
 
 import jdbc.connection.ConnectionProvider;
-import notice.Notice;
 import notice.dao.NoticeDAO;
-import notice.dao.NoticeDao3;
+import notice.model.Notice;
 
 public class ShowNoticeService {
 	
