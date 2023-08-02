@@ -3,6 +3,8 @@ package angel.command;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.json.simple.JSONObject;
+
 import angel.model.Article;
 import angel.service.ArticleService;
 import mvc.command.CommandHandler;
@@ -19,9 +21,7 @@ public class ModifyHandler implements CommandHandler {
 		
 		ArticleService articleService = new ArticleService();
 		int row = articleService.modify(article);
-		//return request.getContextPath() + "/view/ANGEL/main.jsp" ;
 		
 		return request.getContextPath() + "/Angel/detail.do?articleNo=" + articleNo;
 	}
-
 }

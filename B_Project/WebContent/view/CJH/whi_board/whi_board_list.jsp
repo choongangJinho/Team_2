@@ -18,7 +18,7 @@
 
 </head>
 <body>
-<%@ include file="/navi.jsp" %>
+<%@ include file = "/header.html" %>
 <!-- 여기아래로 -->
 <!-- 메인 이미지 -->
 <div style="text-align: center;">
@@ -89,19 +89,7 @@
 
 </div>
 <!-- 테이블끝 -->
-
-<div >
-
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <!-- 여기위로 -->
-<%@ include file="/footer.jsp" %>
+<%@ include file="/footer.html" %>
 </body>
 </html>

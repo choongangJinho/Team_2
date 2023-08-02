@@ -11,7 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@ include file="/navi.jsp" %>
+<%@ include file = "/header.html" %>
 <!-- 여기아래로 -->
 <h1>글 작성하기</h1>
 <div class="form-group">
@@ -41,11 +41,7 @@
 </div>
 </form>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
 <!-- 여기위로 -->
+<%@ include file="/footer.html" %>
 </body>
 </html>
